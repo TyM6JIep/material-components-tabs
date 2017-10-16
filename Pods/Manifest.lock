@@ -1,0 +1,37 @@
+PODS:
+  - MaterialComponents/AnimationTiming (35.3.0)
+  - MaterialComponents/Ink (35.3.0):
+    - MaterialComponents/Ink/ColorThemer (= 35.3.0)
+    - MaterialComponents/Ink/Component (= 35.3.0)
+  - MaterialComponents/Ink/ColorThemer (35.3.0):
+    - MaterialComponents/Ink/Component
+    - MaterialComponents/Themes
+  - MaterialComponents/Ink/Component (35.3.0)
+  - MaterialComponents/private/Application (35.3.0)
+  - MaterialComponents/private/Math (35.3.0)
+  - MaterialComponents/private/RTL (35.3.0)
+  - MaterialComponents/Tabs (35.3.0):
+    - MaterialComponents/Tabs/ColorThemer (= 35.3.0)
+    - MaterialComponents/Tabs/Component (= 35.3.0)
+  - MaterialComponents/Tabs/ColorThemer (35.3.0):
+    - MaterialComponents/Tabs/Component
+    - MaterialComponents/Themes
+  - MaterialComponents/Tabs/Component (35.3.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/RTL
+    - MaterialComponents/Typography
+  - MaterialComponents/Themes (35.3.0)
+  - MaterialComponents/Typography (35.3.0):
+    - MaterialComponents/private/Application
+
+DEPENDENCIES:
+  - MaterialComponents/Tabs
+
+SPEC CHECKSUMS:
+  MaterialComponents: 8fc910f569d230942990142ef65bd701513977bb
+
+PODFILE CHECKSUM: 226f092a3bddd074e8c0bbdd68cb5e7e653e37a8
+
+COCOAPODS: 1.4.0.beta.1
